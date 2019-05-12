@@ -1,7 +1,10 @@
 package com.sunith.cvapp.data
 
+import android.content.Context
 import com.sunith.cvapp.data.models.domain.Domain
 import com.sunith.cvapp.data.repository.CVRepo
+import com.sunith.cvapp.data.repository.asset.AssetCVProviderModule
+import com.sunith.cvapp.data.repository.asset.AssetCVRepo
 import com.sunith.cvapp.data.repository.gist.GistCVModule
 import io.reactivex.Single
 
@@ -20,7 +23,8 @@ class CVDataProviderImpl(
 }
 
 object CVDataProviderModule {
-    fun getCVDataProvider(): CVDataProvider {
+    fun getCVDataProvider(context: Context): CVDataProvider {
         return CVDataProviderImpl(GistCVModule.getGistRepo(), DomainConverter())
+        //return CVDataProviderImpl(AssetCVProviderModule.getAssetCVRepo(context), DomainConverter())
     }
 }

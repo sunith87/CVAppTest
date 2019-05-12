@@ -26,7 +26,7 @@ class CVActivity : AppCompatActivity(), CVContract.View {
         setContentView(R.layout.cv_main)
         cvsView = findViewById(R.id.main_cvs_view);
         fetchingProgressView = findViewById(R.id.fetchingDataView);
-        presenter = CVPresenter(CVDataProviderModule.getCVDataProvider(), RxModuleImpl)
+        presenter = CVPresenter(CVDataProviderModule.getCVDataProvider(this), RxModuleImpl)
         cvsAdapter = CvsAdapter(this)
         cvsView.adapter = cvsAdapter
         cvsView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)

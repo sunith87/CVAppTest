@@ -1,0 +1,234 @@
+[
+  {
+    "profile":{
+      "name":"John Smith",
+      "email":"somemail@hotmail.com",
+      "phone":"08028828882",
+      "mobile":"07812345676",
+      "address":{
+        "line1":"120 Farm Road",
+        "line2":"",
+        "town":"London",
+        "postcode":"NW118QY"
+      }
+    },
+    "professional_summary":"Highly motivated and persevering developer with over 6 years of professional experience working in an Agile environment designing, developing, integrating and testing solutions for mobile apps on the Android platform. Passionate about analysing, designing and finding solutions for software problems with immense attention to detail. Prefer a role which will enhance my knowledge and provide opportunities for both personal and professional growth.",
+    "skills":[
+      "Good understanding of Android SDK, Android lifecycle, Java and OOP principles.",
+      "Experience in integrating various 3rd party libraries on Android used for video streaming, analytics, adverts, in app purchases, notifications.",
+      "Experience of working in high pressure environments delivering features while working in an Agile team using either Scrum or Kanban.",
+      "Experience of working in high pressure environments delivering features while working in Agile team using either Scrum or Kanban.",
+      "Experience in popular libraries/frameworks such as RxJava, Volley, Retrofit, Picasso, Glide, Dagger 2.",
+      "Possess knowledge in Source Control tools like Git and SVN (Subversion), IDEs such as Android Studio and Eclipse and continuous integration using Hudson/Jenkins with Ant and Gradle"
+    ],
+    "work_experience":[
+      {
+        "company":"NOW TV",
+        "start_date":"August 2017",
+        "end_date":"Present",
+        "projects":[
+          {
+            "name":"Now TV Android App",
+            "role":"Android Developer",
+            "summary":"Joined Now TV during a transformation phase while they were in the last stages of building a brand new client app for different territories. Currently adding more features to the existing clients and scaling to other territories in Europe.",
+            "highlights":[
+              "To create a separate testable and maintainable module for downloading video assets. I have used RxJava extensively for this module along with internal and third party libraries. Also integrating the downloads module with the main app module to enable the feature. Continuing to add more download related features as per business requirement",
+              "Have also helped integrating various third party libraries for push and analytics. Also recently started using Kotlin in our code base. So have been helping convert classes and tests to use Kotlin.",
+              "Some parts of the app are created using react native too. So have also worked on converting one of the native views to react native views. Along with that, also created some ui standalone components using Lottie which were exposed to react native to be called from JS layer."
+            ]
+          }
+        ]
+      },
+      {
+        "company":"News UK",
+        "start_date":"April 2015",
+        "end_date":"August 2017",
+        "projects":[
+          {
+            "name":"Times and The Sunday Times phone app",
+            "role":"Android Developer",
+            "summary":"Joined Now TV during a transformation phase while they were in the last stages of building a brand new client app for different territories. Currently adding more features to the existing clients and scaling to other territories in Europe.",
+            "highlights":[
+              "Main contribution has been to create new layouts one of which included a challenging layout managing playback within a scrollable list.",
+              "Integrated google smart lock with the app.",
+              "Created a successful working prototype that integrated In App Purchases with google play."
+            ]
+          },
+          {
+            "name":"Times and The Sunday Times Tablet app",
+            "role":"Android Developer",
+            "summary":"​​I started working as an Android Developer for News UK for their subscription based Times and Sunday times tablet app published on Google Play and for Kindle devices created using an in-house hybrid technology",
+            "highlights":[
+              "Rewriting the downloader - Downloader is one of the core part of this project because every day a big amount of data (template, images and content) were downloaded as a bundle.",
+              "Developed automatic background downloader using background service in Android which would download editions overnight so that its available for customers in the morning.",
+              "Involved ​in integration of in app purchase for kindle devices. Also integrated third party libraries for features such as rating, analytics and also services such as printing, email and sharing using the android framework."
+            ]
+          }
+        ]
+      },
+      {
+        "company":"British Sky Broadcasting",
+        "start_date":"September 2011",
+        "end_date":"April 2015",
+        "projects":[
+          {
+            "name":"​​Sky Go Android",
+            "role":"Android Developer",
+            "summary":"It is a streaming application available for Sky customers. Worked in an agile environment communicating with product owners, analysts and testers on a daily basis.",
+            "highlights":[
+              "Worked on Development and Integration of 3rd party libraries used for Encrypted video Streaming, Adverts, Analytics, Push notification",
+              "Rewrote the old app with Fragments. Developed solutions to block Wi-Fi Direct/Miracast used to mirror video streams.",
+              "Worked on integrating REST API calls (JSON and XML) used for authentication and various other services."
+            ]
+          },
+          {
+            "name":"​​Sky Authentication Library Project",
+            "role":"Android Developer",
+            "summary":"Was part of a core development team responsible for delivering an android library project which is now been used most Sky apps for authentication, REST API calls and some other security features used for communication with backend servers.",
+            "highlights":[
+              "Worked on Development and Integration of 3rd party libraries used for Encrypted video Streaming, Adverts, Analytics, Push notification",
+              "Rewrote the old app with Fragments. Developed solutions to block Wi-Fi Direct/Miracast used to mirror video streams.",
+              "Worked on integrating REST API calls (JSON and XML) used for authentication and various other services."
+            ]
+          },
+          {
+            "name":"​​Sky Go Android",
+            "role":"Test Analyst",
+            "summary":"​​Worked as a Test Analyst during the earlier part of my career in Sky testing Android and iOs apps.",
+            "highlights":[
+              "Test planning and test execution.",
+              "System Tests using Robotium for Android.",
+              "Creation and review of documentation such as test plans, test scripts and defect reports.",
+              "Also briefly worked with Cucumber/Appium Framework for BDD tests.",
+              "Regular liaisons with project team, business analyst and product owners to understand user stories, acceptance criteria to plan out testing."
+            ]
+          }
+        ]
+      }
+    ],
+    "education":[
+      {
+        "name":"Kings College London",
+        "qualification":"MEng Computer Systems and Electronics",
+        "start":"2006",
+        "end":"2010",
+        "comments":"First Class Honours"
+      },
+      {
+        "name":"University of Westminster",
+        "qualification":"Foundation in Computer Science",
+        "start":"2005",
+        "end":"2016",
+        "comments":"First Class (with Distinction)"
+      },
+      {
+        "name":"Seventh Day Adventist Higher Secondary School",
+        "qualification":"Indian School Certificate",
+        "start":"2003",
+        "end":"2005",
+        "comments":"Successfully completed with 84% overall. Main Subjects - Maths (80%), English (86%), Physics (83%), Chemistry (86%) and Biology (86%)"
+      }
+    ]
+  },
+  {
+    "profile":{
+      "name":"S Geroge",
+      "email":"somegeorgel@hotmail.com",
+      "phone":"000028828882",
+      "mobile":"7998282992",
+      "address":{
+        "line1":"120 Golders Road",
+        "line2":"",
+        "town":"Edgware",
+        "postcode":"NW110QY"
+      }
+    },
+    "professional_summary":"Highly motivated and persevering developer with over 6 years of professional experience working in an Agile environment designing, developing, integrating and testing solutions for mobile apps on the Android platform. Passionate about analysing, designing and finding solutions for software problems with immense attention to detail. Prefer a role which will enhance my knowledge and provide opportunities for both personal and professional growth.",
+    "skills":[
+      "Line 1 Skills",
+      "Line 2 Some other skills",
+      "IDE knowledge"
+    ],
+    "work_experience":[
+      {
+        "company":"Company A",
+        "start_date":"August 2017",
+        "end_date":"Present",
+        "projects":[
+          {
+            "name":"A Compat App",
+            "role":"Android Developer",
+            "summary":"Summary for Compat App",
+            "highlights":[
+              "highlisht 1",
+              "highlist 2 and some",
+              "highlight 3"
+            ]
+          }
+        ]
+      },
+      {
+        "company":"Company B",
+        "start_date":"September 2011",
+        "end_date":"April 2015",
+        "projects":[
+          {
+            "name":"Another App",
+            "role":"Android Developer",
+            "summary":"summary for Another App",
+            "highlights":[
+              "highlight 1 for Another App",
+              "highlight 2 for Another App",
+              "highlight 2"
+            ]
+          },
+          {
+            "name":"Library Project",
+            "role":"Android Developer",
+            "summary":"Summary Lib Project",
+            "highlights":[
+              "Lib project highiight 1",
+              "Lib project highiight 2",
+              "Lib project highiight 3"
+            ]
+          },
+          {
+            "name":"​​Sky Go Android",
+            "role":"Test Analyst",
+            "summary":"​​Worked as a Test Analyst during the earlier part of my career in Sky testing Android and iOs apps.",
+            "highlights":[
+              "Test planning and test execution.",
+              "System Tests using Robotium for Android.",
+              "Creation and review of documentation such as test plans, test scripts and defect reports.",
+              "Also briefly worked with Cucumber/Appium Framework for BDD tests.",
+              "Regular liaisons with project team, business analyst and product owners to understand user stories, acceptance criteria to plan out testing."
+            ]
+          }
+        ]
+      }
+    ],
+    "education":[
+      {
+        "name":"Colleage A",
+        "qualification":"MEng Computer Systems and Electronics",
+        "start":"1993",
+        "end":"1997",
+        "comments":"First Class Honours"
+      },
+      {
+        "name":"College B",
+        "qualification":"Foundation in Computer Science",
+        "start":"1991",
+        "end":"1993",
+        "comments":"First Class (with Distinction)"
+      },
+      {
+        "name":"School A",
+        "qualification":"GCSE",
+        "start":"1989",
+        "end":"1991",
+        "comments":"Got grades"
+      }
+    ]
+  }
+]
