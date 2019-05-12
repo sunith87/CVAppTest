@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestCVApp</string>
+    <string name="skills_and_topics"><![CDATA[Skills & Topics of Knowledge]]></string>
+    <string name="work_experience">Work Experience</string>
+    <string name="project_name">Project Something</string>
+    <string name="project_summary">Summary lorem ipsum</string>
+    <string name="education">Education</string>
+    <string name="fetching_data">Fetching data</string>
+    <string name="refetch">Refresh</string>
+</resources>
